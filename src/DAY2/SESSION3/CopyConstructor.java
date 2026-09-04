@@ -1,0 +1,19 @@
+package DAY2.SESSION3;
+
+class Laptop{
+    String brand;
+    int ramSize;
+
+    public Laptop(String brand, int ramSize){
+        this.brand = brand;
+        this.ramSize = ramSize;
+    }
+
+    public Laptop(Laptop obj){
+        this.brand = obj.brand;
+        this.ramSize = obj.ramSize;
+    }
+}
+public class CopyConstructor {
+    
+}
